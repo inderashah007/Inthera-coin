@@ -1,4 +1,4 @@
-https://drive.google.com/file/d/1S8A4uEr2rboVA5YGA2ljIEvOyEvfXRV8/view?usp=drive_link
+
 # **Inthera Coin (ITC)** - Menghasilkan Mata Wang Kripto dari Data Buangan Internet
 
 ![Inthera Coin](https://yourimageurl.com/logo.png)
