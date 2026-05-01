@@ -1,0 +1,227 @@
+2025-03-02T02:47:37.962682533Z	Cloning repository...
+2025-03-02T02:47:38.526962984Z	From https://github.com/inderashah007/Inthera-coin
+2025-03-02T02:47:38.52730588Z	 * branch            1c637f486540f05924c40587a21369b41236c5e6 -> FETCH_HEAD
+2025-03-02T02:47:38.527332982Z	
+2025-03-02T02:47:38.552938581Z	HEAD is now at 1c637f4 Update README.md
+2025-03-02T02:47:38.55342921Z	
+2025-03-02T02:47:38.641536576Z	
+2025-03-02T02:47:38.641997699Z	Using v2 root directory strategy
+2025-03-02T02:47:38.662748233Z	Success: Finished cloning repository files
+2025-03-02T02:47:40.244567861Z	Checking for configuration in a Wrangler configuration file (BETA)
+2025-03-02T02:47:40.245177991Z	
+2025-03-02T02:47:41.35112486Z	No wrangler.toml file found. Continuing.
+2025-03-02T02:47:41.413302599Z	Detected the following tools from environment: pip@23.2.1, python@3.11.5
+2025-03-02T02:47:41.413697971Z	Installing project dependencies: pip install -r requirements.txt
+2025-03-02T02:47:42.591585066Z	Collecting Flask==2.0.2 (from -r requirements.txt (line 1))
+2025-03-02T02:47:42.631247608Z	  Downloading Flask-2.0.2-py3-none-any.whl.metadata (3.8 kB)
+2025-03-02T02:47:42.657779387Z	Collecting pyjwt==2.1.0 (from -r requirements.txt (line 2))
+2025-03-02T02:47:42.67552908Z	  Downloading PyJWT-2.1.0-py3-none-any.whl.metadata (4.0 kB)
+2025-03-02T02:47:42.730715514Z	Collecting bcrypt==3.2.0 (from -r requirements.txt (line 3))
+2025-03-02T02:47:42.743095452Z	  Downloading bcrypt-3.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.metadata (7.5 kB)
+2025-03-02T02:47:42.795529057Z	Collecting flask-limiter==1.4.0 (from -r requirements.txt (line 4))
+2025-03-02T02:47:42.807830939Z	  Downloading Flask_Limiter-1.4-py3-none-any.whl.metadata (12 kB)
+2025-03-02T02:47:42.88645254Z	Collecting flask-talisman==0.8.0 (from -r requirements.txt (line 5))
+2025-03-02T02:47:42.963158565Z	  Downloading flask_talisman-0.8.0-py2.py3-none-any.whl.metadata (18 kB)
+2025-03-02T02:47:43.038594344Z	Collecting web3==5.23.0 (from -r requirements.txt (line 6))
+2025-03-02T02:47:43.130812894Z	  Downloading web3-5.23.0-py3-none-any.whl.metadata (5.4 kB)
+2025-03-02T02:47:43.165689104Z	Collecting Werkzeug>=2.0 (from Flask==2.0.2->-r requirements.txt (line 1))
+2025-03-02T02:47:43.176201037Z	  Downloading werkzeug-3.1.3-py3-none-any.whl.metadata (3.7 kB)
+2025-03-02T02:47:43.20002833Z	Collecting Jinja2>=3.0 (from Flask==2.0.2->-r requirements.txt (line 1))
+2025-03-02T02:47:43.211295924Z	  Downloading jinja2-3.1.5-py3-none-any.whl.metadata (2.6 kB)
+2025-03-02T02:47:43.228981825Z	Collecting itsdangerous>=2.0 (from Flask==2.0.2->-r requirements.txt (line 1))
+2025-03-02T02:47:43.239086008Z	  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+2025-03-02T02:47:43.241891316Z	Requirement already satisfied: click>=7.1.2 in /opt/buildhome/.local/lib/python3.11/site-packages (from Flask==2.0.2->-r requirements.txt (line 1)) (8.1.7)
+2025-03-02T02:47:43.35587074Z	Collecting cffi>=1.1 (from bcrypt==3.2.0->-r requirements.txt (line 3))
+2025-03-02T02:47:43.35923966Z	  Using cached cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.5 kB)
+2025-03-02T02:47:43.37926394Z	Collecting six>=1.4.1 (from bcrypt==3.2.0->-r requirements.txt (line 3))
+2025-03-02T02:47:43.39146504Z	  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+2025-03-02T02:47:43.423526186Z	Collecting limits (from flask-limiter==1.4.0->-r requirements.txt (line 4))
+2025-03-02T02:47:43.435869221Z	  Downloading limits-4.0.1-py3-none-any.whl.metadata (7.7 kB)
+2025-03-02T02:47:43.913861424Z	Collecting aiohttp<4,>=3.7.4.post0 (from web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:43.926081282Z	  Downloading aiohttp-3.11.13-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (7.7 kB)
+2025-03-02T02:47:43.953627514Z	Collecting eth-abi<3.0.0,>=2.0.0b6 (from web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:43.969049557Z	  Downloading eth_abi-2.2.0-py3-none-any.whl.metadata (5.9 kB)
+2025-03-02T02:47:44.0005637Z	Collecting eth-account<0.6.0,>=0.5.5 (from web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:44.01300071Z	  Downloading eth_account-0.5.9-py3-none-any.whl.metadata (6.1 kB)
+2025-03-02T02:47:44.03621359Z	Collecting eth-hash<1.0.0,>=0.2.0 (from eth-hash[pycryptodome]<1.0.0,>=0.2.0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:44.047497242Z	  Downloading eth_hash-0.7.1-py3-none-any.whl.metadata (4.2 kB)
+2025-03-02T02:47:44.079204039Z	Collecting eth-typing<3.0.0,>=2.0.0 (from web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:44.093241637Z	  Downloading eth_typing-2.3.0-py3-none-any.whl.metadata (5.3 kB)
+2025-03-02T02:47:44.127546643Z	Collecting eth-utils<2.0.0,>=1.9.5 (from web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:44.139173581Z	  Downloading eth_utils-1.10.0-py3-none-any.whl.metadata (5.8 kB)
+2025-03-02T02:47:44.169161549Z	Collecting hexbytes<1.0.0,>=0.1.0 (from web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:44.180734326Z	  Downloading hexbytes-0.3.1-py3-none-any.whl.metadata (5.5 kB)
+2025-03-02T02:47:44.271775635Z	Collecting ipfshttpclient==0.7.0 (from web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:44.285470785Z	  Downloading ipfshttpclient-0.7.0-py3-none-any.whl.metadata (10 kB)
+2025-03-02T02:47:44.322677992Z	Collecting jsonschema<4.0.0,>=3.2.0 (from web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:44.335171182Z	  Downloading jsonschema-3.2.0-py2.py3-none-any.whl.metadata (7.8 kB)
+2025-03-02T02:47:44.372189936Z	Collecting lru-dict<2.0.0,>=1.1.6 (from web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:44.387116249Z	  Downloading lru_dict-1.3.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.5 kB)
+2025-03-02T02:47:44.578593297Z	Collecting protobuf<4,>=3.10.0 (from web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:44.59957698Z	  Downloading protobuf-3.20.3-py2.py3-none-any.whl.metadata (720 bytes)
+2025-03-02T02:47:44.64295665Z	Collecting requests<3.0.0,>=2.16.0 (from web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:44.645934813Z	  Using cached requests-2.32.3-py3-none-any.whl.metadata (4.6 kB)
+2025-03-02T02:47:44.749507603Z	Collecting websockets<10,>=9.1 (from web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:44.762520963Z	  Downloading websockets-9.1.tar.gz (76 kB)
+2025-03-02T02:47:44.790702082Z	  Installing build dependencies: started
+2025-03-02T02:47:46.599844824Z	  Installing build dependencies: finished with status 'done'
+2025-03-02T02:47:46.600604875Z	  Getting requirements to build wheel: started
+2025-03-02T02:47:46.841901156Z	  Getting requirements to build wheel: finished with status 'done'
+2025-03-02T02:47:46.843032006Z	  Preparing metadata (pyproject.toml): started
+2025-03-02T02:47:47.053216141Z	  Preparing metadata (pyproject.toml): finished with status 'done'
+2025-03-02T02:47:47.130537597Z	Collecting multiaddr>=0.0.7 (from ipfshttpclient==0.7.0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:47.142442229Z	  Downloading multiaddr-0.0.9-py2.py3-none-any.whl.metadata (5.0 kB)
+2025-03-02T02:47:47.181786862Z	Collecting aiohappyeyeballs>=2.3.0 (from aiohttp<4,>=3.7.4.post0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:47.192139263Z	  Downloading aiohappyeyeballs-2.4.6-py3-none-any.whl.metadata (5.9 kB)
+2025-03-02T02:47:47.208144937Z	Collecting aiosignal>=1.1.2 (from aiohttp<4,>=3.7.4.post0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:47.218774155Z	  Downloading aiosignal-1.3.2-py2.py3-none-any.whl.metadata (3.8 kB)
+2025-03-02T02:47:47.242370349Z	Collecting attrs>=17.3.0 (from aiohttp<4,>=3.7.4.post0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:47.252891823Z	  Downloading attrs-25.1.0-py3-none-any.whl.metadata (10 kB)
+2025-03-02T02:47:47.343820428Z	Collecting frozenlist>=1.1.1 (from aiohttp<4,>=3.7.4.post0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:47.355761111Z	  Downloading frozenlist-1.5.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (13 kB)
+2025-03-02T02:47:47.526740313Z	Collecting multidict<7.0,>=4.5 (from aiohttp<4,>=3.7.4.post0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:47.537670762Z	  Downloading multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.0 kB)
+2025-03-02T02:47:47.582676457Z	Collecting propcache>=0.2.0 (from aiohttp<4,>=3.7.4.post0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:47.592992428Z	  Downloading propcache-0.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (10 kB)
+2025-03-02T02:47:47.867098442Z	Collecting yarl<2.0,>=1.17.0 (from aiohttp<4,>=3.7.4.post0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:47.878124442Z	  Downloading yarl-1.18.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (69 kB)
+2025-03-02T02:47:47.903385811Z	Collecting pycparser (from cffi>=1.1->bcrypt==3.2.0->-r requirements.txt (line 3))
+2025-03-02T02:47:47.906689162Z	  Using cached pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+2025-03-02T02:47:47.969307024Z	Collecting parsimonious<0.9.0,>=0.8.0 (from eth-abi<3.0.0,>=2.0.0b6->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:47.98238816Z	  Downloading parsimonious-0.8.1.tar.gz (45 kB)
+2025-03-02T02:47:47.992508816Z	  Installing build dependencies: started
+2025-03-02T02:47:49.636157413Z	  Installing build dependencies: finished with status 'done'
+2025-03-02T02:47:49.63686028Z	  Getting requirements to build wheel: started
+2025-03-02T02:47:49.875957058Z	  Getting requirements to build wheel: finished with status 'done'
+2025-03-02T02:47:49.876994894Z	  Preparing metadata (pyproject.toml): started
+2025-03-02T02:47:50.089867647Z	  Preparing metadata (pyproject.toml): finished with status 'done'
+2025-03-02T02:47:50.262202494Z	Collecting bitarray<3,>=1.2.1 (from eth-account<0.6.0,>=0.5.5->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:50.275031144Z	  Downloading bitarray-2.9.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (34 kB)
+2025-03-02T02:47:50.363361806Z	Collecting eth-keyfile<0.6.0,>=0.5.0 (from eth-account<0.6.0,>=0.5.5->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:50.375194163Z	  Downloading eth_keyfile-0.5.1-py3-none-any.whl.metadata (7.3 kB)
+2025-03-02T02:47:50.453141214Z	Collecting eth-keys<0.4.0,>=0.3.4 (from eth-account<0.6.0,>=0.5.5->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:50.465004292Z	  Downloading eth_keys-0.3.4-py3-none-any.whl.metadata (12 kB)
+2025-03-02T02:47:50.548062877Z	Collecting eth-rlp<2,>=0.1.2 (from eth-account<0.6.0,>=0.5.5->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:50.563185099Z	  Downloading eth_rlp-1.0.1-py3-none-any.whl.metadata (4.5 kB)
+2025-03-02T02:47:50.667535196Z	Collecting rlp<3,>=1.0.0 (from eth-account<0.6.0,>=0.5.5->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:50.704095119Z	  Downloading rlp-2.0.1-py2.py3-none-any.whl.metadata (3.1 kB)
+2025-03-02T02:47:50.812828322Z	Collecting pycryptodome<4,>=3.6.6 (from eth-hash[pycryptodome]<1.0.0,>=0.2.0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:50.823684485Z	  Downloading pycryptodome-3.21.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.4 kB)
+2025-03-02T02:47:50.830306486Z	INFO: pip is looking at multiple versions of eth-utils to determine which version is compatible with other requirements. This could take a while.
+2025-03-02T02:47:50.831007104Z	Collecting eth-utils<2.0.0,>=1.9.5 (from web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:50.842880619Z	  Downloading eth_utils-1.9.5-py3-none-any.whl.metadata (4.9 kB)
+2025-03-02T02:47:50.910379142Z	Collecting cytoolz<1.0.0,>=0.10.1 (from eth-utils<2.0.0,>=1.9.5->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:50.921902547Z	  Downloading cytoolz-0.12.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.6 kB)
+2025-03-02T02:47:50.987298294Z	Collecting MarkupSafe>=2.0 (from Jinja2>=3.0->Flask==2.0.2->-r requirements.txt (line 1))
+2025-03-02T02:47:50.997987321Z	  Downloading MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+2025-03-02T02:47:51.033486298Z	Collecting pyrsistent>=0.14.0 (from jsonschema<4.0.0,>=3.2.0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:51.047335321Z	  Downloading pyrsistent-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (27 kB)
+2025-03-02T02:47:51.051610424Z	Requirement already satisfied: setuptools in /opt/buildhome/.asdf/installs/python/3.11.5/lib/python3.11/site-packages (from jsonschema<4.0.0,>=3.2.0->web3==5.23.0->-r requirements.txt (line 6)) (65.5.0)
+2025-03-02T02:47:51.142822229Z	Collecting charset-normalizer<4,>=2 (from requests<3.0.0,>=2.16.0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:51.154316564Z	  Downloading charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (35 kB)
+2025-03-02T02:47:51.17942166Z	Collecting idna<4,>=2.5 (from requests<3.0.0,>=2.16.0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:51.181887212Z	  Using cached idna-3.10-py3-none-any.whl.metadata (10 kB)
+2025-03-02T02:47:51.23200002Z	Collecting urllib3<3,>=1.21.1 (from requests<3.0.0,>=2.16.0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:51.242701524Z	  Downloading urllib3-2.3.0-py3-none-any.whl.metadata (6.5 kB)
+2025-03-02T02:47:51.274477316Z	Collecting certifi>=2017.4.17 (from requests<3.0.0,>=2.16.0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:51.285206018Z	  Downloading certifi-2025.1.31-py3-none-any.whl.metadata (2.5 kB)
+2025-03-02T02:47:51.320187401Z	Collecting deprecated>=1.2 (from limits->flask-limiter==1.4.0->-r requirements.txt (line 4))
+2025-03-02T02:47:51.331053234Z	  Downloading Deprecated-1.2.18-py2.py3-none-any.whl.metadata (5.7 kB)
+2025-03-02T02:47:51.334799873Z	Requirement already satisfied: packaging<25,>=21 in /opt/buildhome/.local/lib/python3.11/site-packages (from limits->flask-limiter==1.4.0->-r requirements.txt (line 4)) (24.1)
+2025-03-02T02:47:51.356574448Z	Collecting typing-extensions (from limits->flask-limiter==1.4.0->-r requirements.txt (line 4))
+2025-03-02T02:47:51.366455987Z	  Downloading typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+2025-03-02T02:47:51.448152058Z	Collecting toolz>=0.8.0 (from cytoolz<1.0.0,>=0.10.1->eth-utils<2.0.0,>=1.9.5->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:51.460231244Z	  Downloading toolz-1.0.0-py3-none-any.whl.metadata (5.1 kB)
+2025-03-02T02:47:51.567545385Z	Collecting wrapt<2,>=1.10 (from deprecated>=1.2->limits->flask-limiter==1.4.0->-r requirements.txt (line 4))
+2025-03-02T02:47:51.578603682Z	  Downloading wrapt-1.17.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.4 kB)
+2025-03-02T02:47:51.61598854Z	INFO: pip is looking at multiple versions of eth-rlp to determine which version is compatible with other requirements. This could take a while.
+2025-03-02T02:47:51.616596061Z	Collecting eth-rlp<2,>=0.1.2 (from eth-account<0.6.0,>=0.5.5->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:51.627693285Z	  Downloading eth_rlp-0.3.0-py3-none-any.whl.metadata (5.4 kB)
+2025-03-02T02:47:51.650143548Z	  Downloading eth_rlp-0.2.1-py3-none-any.whl.metadata (5.3 kB)
+2025-03-02T02:47:51.741194968Z	Collecting varint (from multiaddr>=0.0.7->ipfshttpclient==0.7.0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:51.7533674Z	  Downloading varint-1.0.2.tar.gz (1.9 kB)
+2025-03-02T02:47:51.758697384Z	  Installing build dependencies: started
+2025-03-02T02:47:53.43212269Z	  Installing build dependencies: finished with status 'done'
+2025-03-02T02:47:53.432743829Z	  Getting requirements to build wheel: started
+2025-03-02T02:47:53.675511606Z	  Getting requirements to build wheel: finished with status 'done'
+2025-03-02T02:47:53.67555098Z	  Preparing metadata (pyproject.toml): started
+2025-03-02T02:47:53.873792279Z	  Preparing metadata (pyproject.toml): finished with status 'done'
+2025-03-02T02:47:53.889631784Z	Collecting base58 (from multiaddr>=0.0.7->ipfshttpclient==0.7.0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:53.901845155Z	  Downloading base58-2.1.1-py3-none-any.whl.metadata (3.1 kB)
+2025-03-02T02:47:53.924041404Z	Collecting netaddr (from multiaddr>=0.0.7->ipfshttpclient==0.7.0->web3==5.23.0->-r requirements.txt (line 6))
+2025-03-02T02:47:53.934251468Z	  Downloading netaddr-1.3.0-py3-none-any.whl.metadata (5.0 kB)
+2025-03-02T02:47:54.00135032Z	Downloading Flask-2.0.2-py3-none-any.whl (95 kB)
+2025-03-02T02:47:54.015173021Z	Downloading PyJWT-2.1.0-py3-none-any.whl (16 kB)
+2025-03-02T02:47:54.027488009Z	Downloading bcrypt-3.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (61 kB)
+2025-03-02T02:47:54.039955525Z	Downloading Flask_Limiter-1.4-py3-none-any.whl (15 kB)
+2025-03-02T02:47:54.114627607Z	Downloading flask_talisman-0.8.0-py2.py3-none-any.whl (18 kB)
+2025-03-02T02:47:54.138803661Z	Downloading web3-5.23.0-py3-none-any.whl (485 kB)
+2025-03-02T02:47:54.163095477Z	Downloading ipfshttpclient-0.7.0-py3-none-any.whl (82 kB)
+2025-03-02T02:47:54.179016784Z	Downloading aiohttp-3.11.13-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.7 MB)
+2025-03-02T02:47:54.194232677Z	   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 124.3 MB/s eta 0:00:00
+2025-03-02T02:47:54.197520668Z	Using cached cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (467 kB)
+2025-03-02T02:47:54.211586334Z	Downloading eth_abi-2.2.0-py3-none-any.whl (28 kB)
+2025-03-02T02:47:54.224405382Z	Downloading eth_account-0.5.9-py3-none-any.whl (101 kB)
+2025-03-02T02:47:54.239591015Z	Downloading eth_hash-0.7.1-py3-none-any.whl (8.0 kB)
+2025-03-02T02:47:54.252833107Z	Downloading eth_typing-2.3.0-py3-none-any.whl (6.2 kB)
+2025-03-02T02:47:54.26618124Z	Downloading eth_utils-1.9.5-py3-none-any.whl (23 kB)
+2025-03-02T02:47:54.277958975Z	Downloading hexbytes-0.3.1-py3-none-any.whl (5.9 kB)
+2025-03-02T02:47:54.292759712Z	Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+2025-03-02T02:47:54.303676024Z	Downloading jinja2-3.1.5-py3-none-any.whl (134 kB)
+2025-03-02T02:47:54.317244597Z	Downloading jsonschema-3.2.0-py2.py3-none-any.whl (56 kB)
+2025-03-02T02:47:54.333961162Z	Downloading lru_dict-1.3.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (31 kB)
+2025-03-02T02:47:54.345467879Z	Downloading protobuf-3.20.3-py2.py3-none-any.whl (162 kB)
+2025-03-02T02:47:54.351130399Z	Using cached requests-2.32.3-py3-none-any.whl (64 kB)
+2025-03-02T02:47:54.362315913Z	Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+2025-03-02T02:47:54.373336486Z	Downloading werkzeug-3.1.3-py3-none-any.whl (224 kB)
+2025-03-02T02:47:54.386046838Z	Downloading limits-4.0.1-py3-none-any.whl (45 kB)
+2025-03-02T02:47:54.398509869Z	Downloading aiohappyeyeballs-2.4.6-py3-none-any.whl (14 kB)
+2025-03-02T02:47:54.410968441Z	Downloading aiosignal-1.3.2-py2.py3-none-any.whl (7.6 kB)
+2025-03-02T02:47:54.422731105Z	Downloading attrs-25.1.0-py3-none-any.whl (63 kB)
+2025-03-02T02:47:54.435484259Z	Downloading bitarray-2.9.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (296 kB)
+2025-03-02T02:47:54.447833654Z	Downloading certifi-2025.1.31-py3-none-any.whl (166 kB)
+2025-03-02T02:47:54.460205727Z	Downloading charset_normalizer-3.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (143 kB)
+2025-03-02T02:47:54.474894344Z	Downloading cytoolz-0.12.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+2025-03-02T02:47:54.488639302Z	   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 170.8 MB/s eta 0:00:00
+2025-03-02T02:47:54.499247126Z	Downloading Deprecated-1.2.18-py2.py3-none-any.whl (10.0 kB)
+2025-03-02T02:47:54.513590317Z	Downloading eth_keyfile-0.5.1-py3-none-any.whl (8.3 kB)
+2025-03-02T02:47:54.526328405Z	Downloading eth_keys-0.3.4-py3-none-any.whl (21 kB)
+2025-03-02T02:47:54.539583347Z	Downloading eth_rlp-0.2.1-py3-none-any.whl (5.0 kB)
+2025-03-02T02:47:54.550969913Z	Downloading frozenlist-1.5.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (274 kB)
+2025-03-02T02:47:54.555573202Z	Using cached idna-3.10-py3-none-any.whl (70 kB)
+2025-03-02T02:47:54.565865823Z	Downloading MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23 kB)
+2025-03-02T02:47:54.578942385Z	Downloading multiaddr-0.0.9-py2.py3-none-any.whl (16 kB)
+2025-03-02T02:47:54.589762035Z	Downloading multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (129 kB)
+2025-03-02T02:47:54.601652702Z	Downloading propcache-0.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (231 kB)
+2025-03-02T02:47:54.617451942Z	Downloading pycryptodome-3.21.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.3 MB)
+2025-03-02T02:47:54.635139845Z	   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 138.5 MB/s eta 0:00:00
+2025-03-02T02:47:54.646425265Z	Downloading pyrsistent-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (120 kB)
+2025-03-02T02:47:54.661037137Z	Downloading rlp-2.0.1-py2.py3-none-any.whl (20 kB)
+2025-03-02T02:47:54.672540822Z	Downloading urllib3-2.3.0-py3-none-any.whl (128 kB)
+2025-03-02T02:47:54.685382489Z	Downloading yarl-1.18.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (344 kB)
+2025-03-02T02:47:54.690635873Z	Using cached pycparser-2.22-py3-none-any.whl (117 kB)
+2025-03-02T02:47:54.700787847Z	Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+2025-03-02T02:47:54.712121904Z	Downloading toolz-1.0.0-py3-none-any.whl (56 kB)
+2025-03-02T02:47:54.723364221Z	Downloading wrapt-1.17.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (83 kB)
+2025-03-02T02:47:54.736075339Z	Downloading base58-2.1.1-py3-none-any.whl (5.6 kB)
+2025-03-02T02:47:54.747448495Z	Downloading netaddr-1.3.0-py3-none-any.whl (2.3 MB)
+2025-03-02T02:47:54.769085133Z	   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 115.5 MB/s eta 0:00:00
+2025-03-02T02:47:54.82357201Z	Building wheels for collected packages: websockets, parsimonious, varint
+2025-03-02T02:47:54.824743651Z	  Building wheel for websockets (pyproject.toml): started
+2025-03-02T02:47:55.379668953Z	  Building wheel for websockets (pyproject.toml): finished with status 'done'
+2025-03-02T02:47:55.381013329Z	  Created wheel for websockets: filename=websockets-9.1-cp311-cp311-linux_x86_64.whl size=97607 sha256=8ce8e2c97f338e241310dde3ad7e471204ba38b9f4602b5ab4a9595f99538f7d
+2025-03-02T02:47:55.381411582Z	  Stored in directory: /opt/buildhome/.cache/pip/wheels/0f/ac/ab/443aab8a24785bb249799401c27f235dc6f97d98eb15e4b684
+2025-03-02T02:47:55.384225155Z	  Building wheel for parsimonious (pyproject.toml): started
+2025-03-02T02:47:55.63065041Z	  Building wheel for parsimonious (pyproject.toml): finished with status 'done'
+2025-03-02T02:47:55.632437869Z	  Created wheel for parsimonious: filename=parsimonious-0.8.1-py3-none-any.whl size=42761 sha256=2a3987f63c8df521f9da61245e309077ef5884e695f6cb70dd86056c22ccaede
+2025-03-02T02:47:55.632718097Z	  Stored in directory: /opt/buildhome/.cache/pip/wheels/27/54/4b/fec2bf1cb1623aca5d14d1b1477e4f9ec661e04335b3f22343
+2025-03-02T02:47:55.636305247Z	  Building wheel for varint (pyproject.toml): started
+2025-03-02T02:47:55.858500817Z	  Building wheel for varint (pyproject.toml): finished with status 'done'
+2025-03-02T02:47:55.860055112Z	  Created wheel for varint: filename=varint-1.0.2-py3-none-any.whl size=2003 sha256=f45f65c239f48b43f736c4e0466904b8f58bf613b9561355cf84f0502542f4a8
+2025-03-02T02:47:55.860336035Z	  Stored in directory: /opt/buildhome/.cache/pip/wheels/8c/2a/c3/b16b19aae158e87add6030af381648d7ba2ba6bd4049b4a6b1
+2025-03-02T02:47:55.862055278Z	Successfully built websockets parsimonious varint
+2025-03-02T02:47:55.951557476Z	Installing collected packages: varint, bitarray, wrapt, websockets, urllib3, typing-extensions, toolz, six, pyrsistent, pyjwt, pycryptodome, pycparser, protobuf, propcache, netaddr, multidict, MarkupSafe, lru-dict, itsdangerous, idna, hexbytes, frozenlist, eth-typing, eth-hash, charset-normalizer, certifi, base58, attrs, aiohappyeyeballs, yarl, Werkzeug, requests, parsimonious, multiaddr, jsonschema, Jinja2, flask-talisman, deprecated, cytoolz, cffi, aiosignal, limits, ipfshttpclient, Flask, eth-utils, bcrypt, aiohttp, rlp, flask-limiter, eth-keys, eth-abi, eth-rlp, eth-keyfile, eth-account, web3
+2025-03-02T02:47:58.561518738Z	Successfully installed Flask-2.0.2 Jinja2-3.1.5 MarkupSafe-3.0.2 Werkzeug-3.1.3 aiohappyeyeballs-2.4.6 aiohttp-3.11.13 aiosignal-1.3.2 attrs-25.1.0 base58-2.1.1 bcrypt-3.2.0 bitarray-2.9.3 certifi-2025.1.31 cffi-1.17.1 charset-normalizer-3.4.1 cytoolz-0.12.3 deprecated-1.2.18 eth-abi-2.2.0 eth-account-0.5.9 eth-hash-0.7.1 eth-keyfile-0.5.1 eth-keys-0.3.4 eth-rlp-0.2.1 eth-typing-2.3.0 eth-utils-1.9.5 flask-limiter-1.4 flask-talisman-0.8.0 frozenlist-1.5.0 hexbytes-0.3.1 idna-3.10 ipfshttpclient-0.7.0 itsdangerous-2.2.0 jsonschema-3.2.0 limits-4.0.1 lru-dict-1.3.0 multiaddr-0.0.9 multidict-6.1.0 netaddr-1.3.0 parsimonious-0.8.1 propcache-0.3.0 protobuf-3.20.3 pycparser-2.22 pycryptodome-3.21.0 pyjwt-2.1.0 pyrsistent-0.20.0 requests-2.32.3 rlp-2.0.1 six-1.17.0 toolz-1.0.0 typing-extensions-4.12.2 urllib3-2.3.0 varint-1.0.2 web3-5.23.0 websockets-9.1 wrapt-1.17.2 yarl-1.18.3
+2025-03-02T02:47:58.706685619Z	
+2025-03-02T02:47:58.706814024Z	[notice] A new release of pip is available: 24.3.1 -> 25.0.1
+2025-03-02T02:47:58.706885363Z	[notice] To update, run: pip3 install --upgrade pip
